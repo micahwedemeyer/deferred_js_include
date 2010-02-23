@@ -5,6 +5,8 @@ module DeferredJsInclude
   end
   
   def include_deferred_js(*opts)
+    return unless @deferred_javascripts && !@deferred_javascripts.empty?
+    
     js = @deferred_javascripts.collect {|x| x.to_s}
     js.uniq!
     
