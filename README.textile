@@ -29,7 +29,7 @@ So, using the example from above:
 
 would result in
 
-<pre><code><script src="/javascripts/somefile_someotherfile_yetanotherfile.js"></script></pre></code>
+<pre><code><script src="/javascripts/somefile_someotherfile_yetanotherfile.js"></script></code></pre>
 
 h2. Notes / Features
 
