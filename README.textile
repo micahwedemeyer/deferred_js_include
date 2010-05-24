@@ -11,13 +11,13 @@ h2. Example
 ...
 <% deferred_js :somefile, :yetanotherfile %>
 ...
-<%= include_deferred_js %></pre></code>
+<%= include_deferred_js %></code></pre>
 
 This will result in:
 
 <pre><code><script src="/javascripts/somefile.js"></script>
 <script src="/javascripts/someotherfile.js"></script>
-<script src="/javascripts/yetanotherfile.js"></script></pre></code>
+<script src="/javascripts/yetanotherfile.js"></script></code></pre>
 
 h2. Caching
 
@@ -25,7 +25,7 @@ Passing :cache => true to include_deferred_js will use Rails's built-in javascri
 
 So, using the example from above:
 
-<pre><code><%= include_deferred_js :cache => true %></pre></code>
+<pre><code><%= include_deferred_js :cache => true %></code></pre>
 
 would result in
 
